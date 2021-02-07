@@ -3,17 +3,18 @@
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: start;
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 0.5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: start;
+  width: 100%;
 }
 
 .footer {
@@ -55,6 +56,18 @@
 .title,
 .description {
   text-align: center;
+}
+
+.accordions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+}
+
+.accordionColumn {
+  width: 100%;
+  padding: 1px 1px 1px 1px;
 }
 
 .description {
