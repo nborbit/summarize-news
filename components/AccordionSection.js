@@ -7,7 +7,8 @@ class AccordionSection extends Component {
     isOpen: PropTypes.bool.isRequired,
     label: PropTypes.string.isRequired,
     onClick: PropTypes.func.isRequired,
-    sentiment: PropTypes.number.isRequired,
+    count: PropTypes.number.isRequired,
+    sentiment: PropTypes.number.isRequired
   };
 
   onClick = () => {
@@ -17,29 +18,23 @@ class AccordionSection extends Component {
   render() {
     const {
       onClick,
-      props: { isOpen, label, sentiment },
+      props: { isOpen, label, count, sentiment },
     } = this;
 
     return (
-      <div
-        style={{
-          background: isOpen ? '#fae042'  : sentiment < 0 ?  '#b66d5b' : '#6db65b',
-          border: '1px solid #97b787',
-          padding: '3px 3px',
-        }}
-      >
-        <div onClick={onClick} style={{ cursor: 'pointer' }}>
-          {label}
+      <div class={"p-1 " + (sentiment < 0 ? "bg-red-200" : "bg-green-200")}>
+
+        <div onClick={onClick} class={"cursor-pointer text-md " + ( sentiment < 0 ? "hover:bg-red-100" : "hover:bg-green-100" )}>
+          {label} ({count})
           <div style={{ float: 'right' }}>
             {!isOpen && <span>&#9650;</span>}
             {isOpen && <span>&#9660;</span>}
           </div>
         </div>
         {isOpen && (
-          <div
+          <div class={"border-1 " + (sentiment < 0 ? "bg-red-100" : "bg-green-100")}
             style={{
               width: '100%',
-              background:  '#6db65b',
               border: '1px solid #97b787',
               marginTop: 5,
               padding: '3px 3px',
