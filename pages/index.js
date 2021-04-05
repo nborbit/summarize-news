@@ -16,7 +16,7 @@ export default function Home() {
                 summ.news
             </h1>
             <h2 class="text-xl p-3">
-            Reddit analytics: main topics, frequency and sentiment for February 2021
+            Reddit analytics: main topics, frequency and sentiment for March 2021
             </h2>
            <div class="container flex min-w-full p-3">
             {content.subreddits.map(subreddit => (
