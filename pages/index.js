@@ -13,7 +13,7 @@ export default function Home() {
 
         <main class="container min-w-full">
             <h1 class="text-6xl p-3 font-extrabold">
-                summ.news
+                SUMMarize.NEWS
             </h1>
             <h2 class="text-xl p-3">
             Reddit analytics: main topics, keyword frequency and sentiment for 1-10 August 2021
