@@ -2330,26 +2330,6 @@
                     ]
                 },
                 {
-                    "label": "-&gt",
-                    "count": 18,
-                    "sentiment": 0.1470767195767196,
-                    "links": [
-                        "/r/datascience/comments/ox5md4/question_about_setting_up_a_lstm_supervised/",
-                        "/r/datascience/comments/ovjv51/r_users_learn_metaprogramming/",
-                        "/r/datascience/comments/p4e21z/job_search_transitioning_from_ds_to_machine/",
-                        "/r/datascience/comments/p2v5xi/i_have_around_a_year_to_learn_it_and_i_think_it/",
-                        "/r/datascience/comments/pa8sun/how_would_i_rank_my_customers/",
-                        "/r/datascience/comments/p9wt01/data_analyst_data_engineer_or_data_scientist_you/",
-                        "/r/datascience/comments/p3n567/will_completing_an_online_google_certificate_in/",
-                        "/r/datascience/comments/pc6cmu/tableau_where_to_start_public_online_community/",
-                        "/r/datascience/comments/peremu/remember_it_always/",
-                        "/r/datascience/comments/p89isv/thoughts_on_data_science_business_idea/",
-                        "/r/datascience/comments/p41i57/what_are_examples_of_good_and_bad_ds_code/",
-                        "/r/datascience/comments/p5djg9/mlops_simplified/",
-                        "/r/datascience/comments/p8d7ev/how_to_validate_5000_line_items_against_2_million/"
-                    ]
-                },
-                {
                     "label": "llc",
                     "count": 18,
                     "sentiment": 0.02950196408529742,
@@ -4311,47 +4291,6 @@
                         "/r/programming/comments/p7dg4e/git_is_hard_a_story_about_building_new_version/",
                         "/r/programming/comments/p7daan/4_habits_to_succeed_as_a_software_engineer_in/",
                         "/r/programming/comments/pd81jk/models_of_generics_and_metaprogramming_go_rust/"
-                    ]
-                },
-                {
-                    "label": "-&gt",
-                    "count": 87,
-                    "sentiment": 0.030673515501101707,
-                    "links": [
-                        "/r/programming/comments/p3ifyl/thousands_of_google_workers_agree_to_pay_cuts_so/",
-                        "/r/programming/comments/p4o5xr/the_perl_foundation_is_fragmenting_over_code_of/",
-                        "/r/programming/comments/pcg9dg/introducing_the_blade_programming_language/",
-                        "/r/programming/comments/p4woi7/cryptocurrency_is_an_abject_disaster/",
-                        "/r/programming/comments/p4aa0w/mozilla_tests_if_firefox1000_user_agent_breaks/",
-                        "/r/programming/comments/pf5ymu/if_software_engineering_is_in_demand_why_is_it_so/",
-                        "/r/programming/comments/p5gfl6/engineering_manager_breaks_down_problems_he_used/",
-                        "/r/programming/comments/p8ebib/you_can_understand_or_debug_just_about_anything/",
-                        "/r/programming/comments/p8tmi3/a_graphing_calculator_made_by_me/",
-                        "/r/programming/comments/pcl6ic/objectoriented_java_tuples_library/",
-                        "/r/programming/comments/p0uxe3/go_the_good_the_bad_and_the_ugly/",
-                        "/r/programming/comments/p7p6pn/patterns_in_confusing_explanations/",
-                        "/r/programming/comments/pc0ou9/the_rise_of_userhostile_software/",
-                        "/r/programming/comments/pd092x/discordpy_development_ceased/",
-                        "/r/programming/comments/pa4cbb/bringing_the_unix_philosophy_to_the_21st_century/",
-                        "/r/programming/comments/p6qohk/hash_collision_in_apple_neuralhash_model/",
-                        "/r/programming/comments/p0nb1t/elasticsearch_adding_code_to_reject_connections/",
-                        "/r/programming/comments/p0yn45/three_fundamental_flaws_of_simd/",
-                        "/r/programming/comments/pc2hu4/why_type_systems_matter/",
-                        "/r/programming/comments/pbz8ln/blog_deciding_to_become_an_eventdriven_enterprise/",
-                        "/r/programming/comments/oxn5xl/exercises_that_programmers_should_do_to_avoid/",
-                        "/r/programming/comments/ovigjs/how_to_teach_ports_and_adapters/",
-                        "/r/programming/comments/oyeq6y/when_you_get_right_down_to_it_most_security_is/",
-                        "/r/programming/comments/p9v06v/sadkitty_helps_you_back_up_content_youve_bought/",
-                        "/r/programming/comments/ozb41r/apples_plan_to_think_different_about_encryption/",
-                        "/r/programming/comments/p1ad4v/mold_a_modern_linker/",
-                        "/r/programming/comments/pa12bt/alan_kays_answer_to_how_does_one_get_as_close_as/",
-                        "/r/programming/comments/pdjnfr/software_development_topics_ive_changed_my_mind/",
-                        "/r/programming/comments/pcl7mw/a_hacker_takes_responsibility_for_the_tmobile/",
-                        "/r/programming/comments/p5bv9j/code_review_single_responsibility_principle/",
-                        "/r/programming/comments/p7dg4e/git_is_hard_a_story_about_building_new_version/",
-                        "/r/programming/comments/pe1zlt/whatever_your_language_you_can_steal_clojures/",
-                        "/r/programming/comments/p3my0k/ive_made_an_opensource_github_mobile_app_diohub/",
-                        "/r/programming/comments/p0ik84/how_to_write_slow_rust_code_part_2_a_deeper_look/"
                     ]
                 },
                 {
@@ -7089,36 +7028,6 @@
                         "/r/aws/comments/p8692h/aws_tech_stack_to_build_a_saas_in_2021_as_a_team/",
                         "/r/aws/comments/pd8eji/i_want_to_replace_cognito_hosted_ui_with/",
                         "/r/aws/comments/p4ydm7/aws_rds_affordable_alternative_for_small_app/"
-                    ]
-                },
-                {
-                    "label": "-&gt",
-                    "count": 49,
-                    "sentiment": 0.08397804576376004,
-                    "links": [
-                        "/r/aws/comments/p8f0hv/reliable_way_of_scanning_large_dynamodb_tables/",
-                        "/r/aws/comments/pdbb8n/where_can_i_read_about_how_business_problems_have/",
-                        "/r/aws/comments/p0xuzk/other_less_costly_options_to_process_large_amount/",
-                        "/r/aws/comments/pel35l/managing_aws_in_a_large_organization_looking_for/",
-                        "/r/aws/comments/p5w8eh/lambda_sqs_sugestions_to_control_max_number_of/",
-                        "/r/aws/comments/oz1hid/using_a_vpn_inside_workspaces/",
-                        "/r/aws/comments/pccb2q/codepipeline_and_version_management/",
-                        "/r/aws/comments/p3v3wy/what_are_the_good_parts_of_codepipeline_and/",
-                        "/r/aws/comments/oxr7u0/how_to_search_s3_file_contents/",
-                        "/r/aws/comments/pajre5/lambda_asynchronous_destinations/",
-                        "/r/aws/comments/p2ug9c/lab_environment/",
-                        "/r/aws/comments/owz3rw/cloudformation_and_cross_account_route53_hosted/",
-                        "/r/aws/comments/p38qt1/ec2_impersonation/",
-                        "/r/aws/comments/p2udxk/s3_cors_issue/",
-                        "/r/aws/comments/p82tuf/cloudfront_not_respecting_behavior_paths_origins/",
-                        "/r/aws/comments/p0edcb/dynamodb_find_all_ranges_containing_number/",
-                        "/r/aws/comments/p5i6st/aws_session_manager_vs_ssh_from_static_ip/",
-                        "/r/aws/comments/p7ghqf/aws_sso_azure_ad_scim_abac_and_groups/",
-                        "/r/aws/comments/p5cqp2/aws_cdk_project_structure/",
-                        "/r/aws/comments/oz7ixb/aws_sns_to_aws_chatbot_to_slack_integration/",
-                        "/r/aws/comments/nha53i/extreme_http_performance_tuning_12m_api_reqs_on_a/",
-                        "/r/aws/comments/p4ydm7/aws_rds_affordable_alternative_for_small_app/",
-                        "/r/aws/comments/pf611b/cloudfront_with_custom_origin/"
                     ]
                 },
                 {
@@ -10043,30 +9952,6 @@
                         "/r/audioengineering/comments/p18fw0/record_in_audacity_then_transfer_the_audio_files/",
                         "/r/audioengineering/comments/p3j2po/why_are_decibels_are_in_negative/",
                         "/r/audioengineering/comments/p9kwvh/upgrading_professional_setup/"
-                    ]
-                },
-                {
-                    "label": "-&gt",
-                    "count": 38,
-                    "sentiment": 0.09884370015948962,
-                    "links": [
-                        "/r/audioengineering/comments/p6kcm6/making_your_own_multiband_effects/",
-                        "/r/audioengineering/comments/oyeaom/make_keyboard_left_handed_in_fl_studio/",
-                        "/r/audioengineering/comments/p1z9pn/recording_without_just_an_interface/",
-                        "/r/audioengineering/comments/p5p6j3/psa_information_is_not_lost_when_converting_an/",
-                        "/r/audioengineering/comments/ozvvv9/ive_noted_when_isolating_the_sides_of_pro_mixes/",
-                        "/r/audioengineering/comments/p03oxa/due_to_popular_demand_we_released_an_installer/",
-                        "/r/audioengineering/comments/p8pr49/your_monthly_reminder_that_the_sm7_needs_signal/",
-                        "/r/audioengineering/comments/pc1cg9/melodyne_before_and_after_autotune/",
-                        "/r/audioengineering/comments/paj8s5/need_advice_on_how_to_master_bass_guitar/",
-                        "/r/audioengineering/comments/pdn018/help_with_setting_up_cd_player/",
-                        "/r/audioengineering/comments/pes7c4/hs7_static_noise_tried_everything_without_any/",
-                        "/r/audioengineering/comments/p7gjkm/is_there_anyway_to_send_a_stereo_signal_from_my/",
-                        "/r/audioengineering/comments/oykjkb/baffling_results_from_testing_wireless_system/",
-                        "/r/audioengineering/comments/p7hqrx/all_of_a_sudden_on_my_near_final_mix_of_a_song/",
-                        "/r/audioengineering/comments/paolwj/can_the_scarlet_2i2_3rd_gen_audio_interface/",
-                        "/r/audioengineering/comments/p0kax8/how_do_you_use_an_ssl_eg_pluggin_on_your_mixes/",
-                        "/r/audioengineering/comments/paeaga/how_do_you_go_about_achieving_super_compressed/"
                     ]
                 },
                 {
@@ -13104,25 +12989,6 @@
                     ]
                 },
                 {
-                    "label": "-&gt",
-                    "count": 19,
-                    "sentiment": -0.015380781499202564,
-                    "links": [
-                        "/r/MachineLearning/comments/pb8w0l/d_emnlp_2021_acceptance_notification_today/",
-                        "/r/MachineLearning/comments/oxgea7/d_neurips_reviewrebuttal_ventrelief_thread/",
-                        "/r/MachineLearning/comments/oz1x04/p_mobile_object_detection_transfer_learning_in/",
-                        "/r/MachineLearning/comments/oum7cf/n_r_dalle_mini_generate_images_from_a_text_prompt/",
-                        "/r/MachineLearning/comments/p72ml2/d_grading_papers_using_aiml/",
-                        "/r/MachineLearning/comments/pee5l2/d_understanding_how_higher_lambda_makes/",
-                        "/r/MachineLearning/comments/osdhx1/r_multiprize_lottery_ticket_hypothesis_finding/",
-                        "/r/MachineLearning/comments/oz7p26/p_open_sourced_a_machine_learning_book_learn/",
-                        "/r/MachineLearning/comments/ox84vi/d_question_about_markov_property/",
-                        "/r/MachineLearning/comments/ozw4xy/d_what_is_the_best_way_to_validate_your_model/",
-                        "/r/MachineLearning/comments/pas0hi/d_how_to_do_long_text_10k_tokens_summarization/",
-                        "/r/MachineLearning/comments/oyf240/d_how_can_autoint_possibly_integrate_over_a_ray/"
-                    ]
-                },
-                {
                     "label": "clip",
                     "count": 19,
                     "sentiment": 0.04382452342978658,
@@ -15317,27 +15183,6 @@
                         "/r/dataengineering/comments/p31jni/was_the_data_clean/",
                         "/r/dataengineering/comments/p8h7c8/why_are_de_interviews_weird/",
                         "/r/dataengineering/comments/p6wvzm/whats_an_olap_cube/"
-                    ]
-                },
-                {
-                    "label": "-&gt",
-                    "count": 23,
-                    "sentiment": -0.002078392621870882,
-                    "links": [
-                        "/r/dataengineering/comments/p5w7xl/serverless_dataengineering_pipeline_suggestions/",
-                        "/r/dataengineering/comments/p1hx6f/data_lake_and_data_warehouse/",
-                        "/r/dataengineering/comments/p1bzzm/how_to_keep_track_of_synchronization_state_of/",
-                        "/r/dataengineering/comments/p7ig2j/can_i_get_into_data_engineering_with_experience/",
-                        "/r/dataengineering/comments/p8crow/the_struggle_is_real/",
-                        "/r/dataengineering/comments/p8h7c8/why_are_de_interviews_weird/",
-                        "/r/dataengineering/comments/p6rimw/apache_airflow_for_ml_model_retraining/",
-                        "/r/dataengineering/comments/pcrlzi/confused_about_de_vs_sde/",
-                        "/r/dataengineering/comments/ozqudd/fivetran_dbt_snowflake_stack/",
-                        "/r/dataengineering/comments/p5039v/event_based_airflow_jobs/",
-                        "/r/dataengineering/comments/p11a5c/new_to_airflow_where_does_most_of_a_code/",
-                        "/r/dataengineering/comments/p0amb5/which_countries_have_the_best_job_opportunities/",
-                        "/r/dataengineering/comments/p7mizf/upsert_in_spark_streaming/",
-                        "/r/dataengineering/comments/owvw4t/when_do_you_use_oop/"
                     ]
                 },
                 {
@@ -22231,29 +22076,6 @@
                     ]
                 },
                 {
-                    "label": "-&gt",
-                    "count": 26,
-                    "sentiment": 0.0046027583527583505,
-                    "links": [
-                        "/r/Python/comments/ozt9x1/a_cheatsheet_for_the_python_3_beginner/",
-                        "/r/Python/comments/ovjubg/whats_the_most_simple_elegant_piece_of_python/",
-                        "/r/Python/comments/p3w4ar/how_important_is_learning_and_remembering_binary/",
-                        "/r/Python/comments/pcrf6i/questions_about_bootcamps_and_jobs/",
-                        "/r/Python/comments/p2v0js/what_do_you_think_about_type_coverage_in_python/",
-                        "/r/Python/comments/pex2f2/what_were_the_first_5_programs_you_made/",
-                        "/r/Python/comments/p51lbj/could_someone_make_me_a_python_code_to_boost_my/",
-                        "/r/Python/comments/p5zpdh/tornado_as_future_problem/",
-                        "/r/Python/comments/pa0a76/self_taught_coders_with_no_degree_who_landed_a/",
-                        "/r/Python/comments/pctuet/python_isnt_industry_compatible/",
-                        "/r/Python/comments/p6e5va/open_source_investment_portfolio_tool_entirely/",
-                        "/r/Python/comments/pbuj0g/id_like_to_introduce_mpire_multiprocessing_is/",
-                        "/r/Python/comments/p2pde3/how_to_type_correctly_the_return_of_functions/",
-                        "/r/Python/comments/p3mgff/most_frequently_asked_python_interview_questions/",
-                        "/r/Python/comments/pb0xpz/whython_updates/",
-                        "/r/Python/comments/p0c3kl/first_python_project_8_bit_adder_model/"
-                    ]
-                },
-                {
                     "label": "js",
                     "count": 25,
                     "sentiment": 0.052528571428571424,
@@ -22903,14 +22725,6 @@
                     "links": [
                         "/r/Python/comments/pahqco/electric_a_windows_package_manager_thats_2x/",
                         "/r/Python/comments/p5mhv3/what_is_your_preferred_way_to_install_python_on/"
-                    ]
-                },
-                {
-                    "label": "input('&gt;&gt;&gt",
-                    "count": 10,
-                    "sentiment": 0.0,
-                    "links": [
-                        "/r/Python/comments/pdmjxz/this_is_my_first_python_game_the_inputs_are_case/"
                     ]
                 },
                 {
