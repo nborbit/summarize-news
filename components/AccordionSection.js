@@ -24,7 +24,7 @@ class AccordionSection extends Component {
     return (
       <div class={"p-1 " + (sentiment < 0 ? "bg-red-200" : "bg-green-200")}>
 
-        <div onClick={onClick} class={"cursor-pointer text-md " + ( sentiment < 0 ? "hover:bg-red-100" : "hover:bg-green-100" )}>
+        <div onClick={onClick} class={"cursor-pointer text-xs " + ( sentiment < 0 ? "hover:bg-red-100" : "hover:bg-green-100" )}>
           {label} ({count})
           <div style={{ float: 'right' }}>
             {!isOpen && <span>&#9650;</span>}

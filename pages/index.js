@@ -16,7 +16,7 @@ export default function Home() {
                 <b>summ</b>arize<b>.news</b>
             </h1>
             <h2 class="text-xl p-3">
-            Reddit analytics: main topics, keyword frequency and sentiment for 1-30 September 2021
+            Reddit analytics: main topics, keyword frequency and sentiment for 1-31 October 2021
             </h2>
            <div class="container flex min-w-full p-3">
             {content.subreddits.map(subreddit => (
@@ -26,7 +26,7 @@ export default function Home() {
                       {subreddit.values.map(keyword => (
                         <div label={keyword.label} count={keyword.count} sentiment={keyword.sentiment} >
                         {keyword.links.map(link => (
-                          <p class="text-sm hover:bg-blue-50"><a target="_blank" href={'https://www.reddit.com'+link}>{link}</a></p>
+                          <p class="text-xs hover:bg-blue-50"><a target="_blank" href={'https://www.reddit.com'+link}>{link}</a></p>
                         ))}
                         </div>
                       ))}
