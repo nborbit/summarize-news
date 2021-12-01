@@ -16,7 +16,7 @@ export default function Home() {
                 <b>summ</b>arize<b>.news</b>
             </h1>
             <h2 class="text-xl p-3">
-            Reddit analytics: main topics, keyword frequency and sentiment for 1-31 October 2021
+            Reddit analytics: main topics, keyword frequency and sentiment for 1-30 November 2021
             </h2>
            <div class="container flex min-w-full p-3">
             {content.subreddits.map(subreddit => (
