@@ -38,7 +38,7 @@ function drawChart2(divElement, data) {
 function drawChart(divElement, data) {
     const plot = Plot.plot({
         height: 2000, 
-        width: 400, 
+        width: 350, 
         padding: 0.15, 
         marginRight: 125,
         x: { axis: null },
@@ -112,14 +112,12 @@ function GithubChartLanguages(props) {
 }
 
 export async function getStaticPaths() {
-    const dataDirectory = path.join(process.cwd(), 'data', 'github')
-    const dateFiles = await fs.readdir(dataDirectory)
-    dateFiles.map(async (filename) => {
-        console.log(filename.replace('.json',''))
-    })
+    const dataDirectory = path.join(process.cwd(), 'data', 'github');
+    const files = await fs.readdir(dataDirectory)
+
     return {
-      paths: [],
-      fallback: true,
+      paths: files.map(fname =>  ({ params: { id: fname.replace('.json','') } })),
+      fallback: false,
     }
   }
 
@@ -135,7 +133,7 @@ export async function getStaticProps({ params }) {
 }
   
 const Github = ({data}) => {
-    return (
+    return (  
         <main>
             <h1 class="text-6xl p-3 font-extrabold">
                 <b>summ</b>arize<b>.news</b>

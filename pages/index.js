@@ -46,11 +46,11 @@ export default function Home({stats}) {
               {stats.map((stat) => (
                 <div>
                   <h3 class="text-3xl font-extrabold">{stat.source}</h3>
-                  {stat.dates.map((date) => (
+                  {stat.dates.map((dt) => (
                     <div class="text-xl">
                     <Link
-                    href={{ pathname: `/${stat.source}/[id]`, query: {id: `${date.date}`}}}>
-                      {date.date}
+                    href={{ pathname: `/${stat.source}/[id]`, query: {id: `${dt.date}`}}}>
+                      {dt.date}
                     </Link>
                     </div>
                   ))}
