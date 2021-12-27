@@ -1,8 +1,35 @@
-import content from "./content.json";
-import Accordion from '../components/Accordion'
 import Head from "next/head";
+import Link from "next/link";
+import { promises as fs } from 'fs'
+import path from 'path'
 
-export default function Home() {
+export async function getStaticProps() {
+  const dataDirectory = path.join(process.cwd(), 'data')
+  const sources = await fs.readdir(dataDirectory)
+  const stats = sources.map(async (dirname) => {
+    const statDir = path.join(dataDirectory, dirname)
+    const dateFiles = await fs.readdir(statDir)
+    return {
+      source: dirname,
+      dates: await Promise.all(dateFiles.map(async (filename) => {
+        
+        const filePath = path.join(statDir, filename)
+        const fileContents = await fs.readFile(filePath, 'utf8');
+        return {
+          date: filename.replace(".json", ""),
+          content: JSON.parse(fileContents)
+        }
+      }))
+    }
+  })
+  return {
+    props:{
+      stats: await Promise.all(stats),
+    }
+  }
+}
+
+export default function Home({stats}) {
     return (
       <div  class="min-w-full" className="flex justify-center">
         <Head>
@@ -16,24 +43,20 @@ export default function Home() {
                 <b>summ</b>arize<b>.news</b>
             </h1>
             <h2 class="text-xl p-3">
-            Reddit analytics: main topics, keyword frequency and sentiment for 1-30 November 2021
-            </h2>
-           <div class="container flex min-w-full p-3">
-            {content.subreddits.map(subreddit => (
-                <div  class="border-b  w-full">
-                  <p class="text-md">reddit: /r/{subreddit.name}/</p>
-                  <Accordion>
-                      {subreddit.values.map(keyword => (
-                        <div label={keyword.label} count={keyword.count} sentiment={keyword.sentiment} >
-                        {keyword.links.map(link => (
-                          <p class="text-xs hover:bg-blue-50"><a target="_blank" href={'https://www.reddit.com'+link}>{link}</a></p>
-                        ))}
-                        </div>
-                      ))}
-                  </Accordion>
+              {stats.map((stat) => (
+                <div>
+                  <h3 class="text-3xl font-extrabold">{stat.source}</h3>
+                  {stat.dates.map((date) => (
+                    <div class="text-xl">
+                    <Link
+                    href={{ pathname: `/${stat.source}/[id]`, query: {id: `${date.date}`}}}>
+                      {date.date}
+                    </Link>
+                    </div>
+                  ))}
                 </div>
-            ))}
-            </div>
+              ))}
+            </h2>
         </main>
       </div>
     )
