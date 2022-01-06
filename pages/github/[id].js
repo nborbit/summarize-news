@@ -141,21 +141,21 @@ const Github = ({data}) => {
             <h2 class="text-xl  p-3 ">
                 Github summary for {data.date}
             </h2>
-            <div class="w-full p-3">
-                <h3>Pull requests per language</h3>
+            <div class="w-full p-3 text-sm">
+                <div>Pull requests per language</div>
                 <GithubChartLanguages data={data.topLanguages}/>
             </div>
             <div class="flex flex-row p-3 h-screen">
-                <div class="fle flex-col p-1">
-                    <h3>Top 100 starred repositories</h3>
+                <div class="flex flex-col p-1">
+                    <div class="text-sm whitespace-nowrap">Top 100 starred repositories</div>
                     <GithubChart data={data.topStarred} class="overflow-y-auto"/>
                 </div>
                 <div class="flex flex-col p-1">
-                    <h3>Top 100 total stars with pull request during the day</h3>
+                    <div class="text-sm whitespace-nowrap">Top 100 total stars with pull request during the day</div>
                     <GithubChart data={data.topStarredActive} class="overflow-y-auto"/>
                 </div>
                 <div class="flex flex-col p-1">
-                    <h3>Pull requests per repository</h3>
+                    <div class="text-sm whitespace-nowrap">Pull requests per repository</div>
                     <GithubChart data={data.topPullRequests} class="overflow-y-auto"/>
                 </div>
             </div>

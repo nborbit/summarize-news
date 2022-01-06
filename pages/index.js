@@ -44,16 +44,26 @@ export default function Home({stats}) {
             </h1>
             <h2 class="text-xl p-3">
               {stats.map((stat) => (
-                <div>
+                <div class="text-sm">
                   <h3 class="text-3xl font-extrabold">{stat.source}</h3>
+                  <div class="grid grid-cols-7 gap-1">
+                    <div class="bg-blue-100">Monday</div>
+                    <div class="bg-blue-100">Tuesday</div>
+                    <div class="bg-blue-100">Wednesday</div>
+                    <div class="bg-blue-100">Thursday</div>
+                    <div class="bg-blue-100">Friday</div>
+                    <div class="bg-blue-100">Saturday</div>
+                    <div class="bg-blue-100">Sunday</div>
+                    <div> </div> <div> </div>
                   {stat.dates.map((dt) => (
-                    <div class="text-xl">
+                    <div class="hover:underline">
                     <Link
                     href={{ pathname: `/${stat.source}/[id]`, query: {id: `${dt.date}`}}}>
                       {dt.date}
                     </Link>
                     </div>
                   ))}
+                  </div>
                 </div>
               ))}
             </h2>
