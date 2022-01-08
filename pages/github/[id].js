@@ -151,7 +151,7 @@ const Github = ({data}) => {
                     <GithubChart data={data.topStarred} class="overflow-y-auto"/>
                 </div>
                 <div class="flex flex-col p-1">
-                    <div class="text-sm whitespace-nowrap">Top 100 total stars with pull request during the day</div>
+                    <div class="text-sm whitespace-nowrap">Top 100 total stars</div>
                     <GithubChart data={data.topStarredActive} class="overflow-y-auto"/>
                 </div>
                 <div class="flex flex-col p-1">
